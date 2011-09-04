@@ -1,0 +1,21 @@
+<!DOCTYPE html
+<html>
+	<head>
+		<title>Detect jQuery TimeZone Plugin</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script src="detect_timezone.js"></script>
+		<script src="jquery.detect_timezone.js"></script>
+		<script>
+			$(document).ready(function(){
+ 					$('#tzvalue').set_timezone({'default' : 'America/Los_Angeles'});
+			});
+		</script>
+	</head>
+	<body>
+		<h1>jQuery TimeZone Detect Plugin Sample</h1>
+		<p>
+			Your Timezone: 
+			<input type="text" id ="tzvalue"></input>
+		</p>
+	</body>
+</html>
