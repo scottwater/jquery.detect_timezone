@@ -31,10 +31,10 @@
       timezone.ambiguity_check();
       return timezone.olson_tz;
     } else {
-      if(settings.debug) {
+      if(settings['debug']) {
         alert('no timezone to be found. using default.')
       }
-      return settings.default
+      return settings['default']
     }
   };
   
